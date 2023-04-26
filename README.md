@@ -3,3 +3,6 @@ In this repo, I will introduce some interesting examples of differential equatio
 
 
 ## I. The Lotka-Volterra Model
+
+### References
+
