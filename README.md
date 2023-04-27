@@ -21,13 +21,13 @@ To visualize the behavior of the model, one can plot the vector field, which sho
 
 ### **Vector Field**: 
 The vector field plot shows the direction and magnitude of the system's behavior at different points in the phase space. The plot uses arrows to indicate the direction of change in the prey and predator populations, and the length of the arrows represents the magnitude of the change. The plot shows that the arrows point towards the stable equilibrium point at (10, 2), indicating that the system tends towards this point. The plot also shows that the magnitude of the arrows is larger in the region of the phase space where the prey population is low and the predator population is high, indicating that the predation rate is higher in this region.
-
 ![1](https://user-images.githubusercontent.com/92335176/234765960-41af1956-8970-496c-bd3e-1242de1bf1e7.jpg)
 
 
 
 ### **Phase Portrait**: 
 The phase portrait plot shows the trajectory of the prey-predator system over time in the phase space, with the prey population on the x-axis and the predator population on the y-axis. The plot shows the existence of a stable equilibrium point at (10, 2), where the prey and predator populations remain constant. The plot also shows the limit cycle, which represents the oscillations in the population sizes of the predator and prey species over time. The limit cycle encloses the stable equilibrium point, indicating that the population sizes oscillate around this point.
+
 ![2](https://user-images.githubusercontent.com/92335176/234765969-d4902687-ce0c-4803-9dfe-7d7344fc7286.jpg)
 
 
