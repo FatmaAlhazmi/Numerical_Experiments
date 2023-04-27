@@ -47,9 +47,14 @@ The invariant curve plot shows the trajectories of the prey-predator system that
 
 
 ## First Numerical Methods
+
 **Explicit Euler Method**
+
 **Implicit Euler Method**
+
 **Implicit Midpoint Rule**
+
+https://github.com/Phatimah/Numerical_Experiments/blob/main/fig2.ipynb
 ### Reference
 - 
 
