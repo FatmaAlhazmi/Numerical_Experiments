@@ -13,7 +13,7 @@ The model consists of a set of ordinary differential equations that describe the
 
 $$ \dot{u} = au - buv $$
 
-$$ \dot{v} = -cv + dbuv $$
+$$ \dot{v} = -cv + duv $$
 
 where a, b, c, and d are positive constants. The first equation represents the rate of change of the prey population, and the second equation represents the rate of change of the predator population.
 
