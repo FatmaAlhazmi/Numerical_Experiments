@@ -35,6 +35,7 @@ The phase portrait plot shows the trajectory of the prey-predator system over ti
 
 ### **Invariant Curves**: 
 The invariant curve plot shows the trajectories of the prey-predator system that correspond to a constant value of the system's invariant quantity. In this case, the invariant quantity is the total population size, which is the sum of the prey and predator populations. The plot shows three invariant curves, which correspond to total population sizes of 10, 20, and 30. The curves show that the trajectories of the system are confined to these curves, and that the trajectories spiral inwards towards the stable equilibrium point at (10, 2) as the total population size decreases. The curves also show that the trajectories diverge outwards from the stable equilibrium point as the total population size increases, indicating that the system becomes unstable at high population sizes.
+
 ![3](https://user-images.githubusercontent.com/92335176/234765978-d10f61ae-1918-4a50-b3f1-adb243960b23.jpg)
 
 
