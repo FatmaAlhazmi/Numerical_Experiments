@@ -56,6 +56,8 @@ The invariant curve plot shows the trajectories of the prey-predator system that
 
 **Implicit Midpoint Rule**
 
+# II. The Pendulum as a Hamiltonian System
+
 https://github.com/Phatimah/Numerical_Experiments/blob/main/fig2.ipynb
 ### Reference
 - 
