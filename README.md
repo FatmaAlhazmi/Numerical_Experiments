@@ -12,7 +12,7 @@ Predator-prey dynamics is a classic problem in ecology and mathematical biology,
 The model consists of a set of ordinary differential equations that describe the rate of change of the populations of the predator and prey species over time. Let u(t) and v(t) be the population sizes of the prey and predator species, respectively, at time t. The Lotka-Volterra model assumes that the populations grow or decline exponentially, and that the growth or decline rate of each species is influenced by the other species. Specifically, the prey population grows at a rate proportional to its size, but is reduced by predation by the predator species, while the predator population declines at a rate proportional to its size, but is enhanced by consuming the prey species. The equations for the Lotka-Volterra model are:
 
 $$ \dot{u} = au - buv $$
-$$\dot{v} = -cv + dbuv $$
+$$ \dot{v} = -cv + dbuv $$
 
 where a, b, c, and d are positive constants. The first equation represents the rate of change of the prey population, and the second equation represents the rate of change of the predator population.
 
