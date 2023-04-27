@@ -4,7 +4,7 @@ In this repo, I will introduce some interesting examples of differential equatio
 
 # I. The Lotka-Volterra Model
 ![01predators-phenomena_16x9](https://user-images.githubusercontent.com/92335176/234765879-7d69a36a-b05d-49c4-a38d-9e5f4d8312f1.jpg)
-Credit:https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nationalgeographic.com%2Fanimals%2Farticle%2Fworld-top-predators-endangered-prey&psig=AOvVaw0Hc_9ycImx1CnBlzpDIHjK&ust=1682654466999000&source=images&cd=vfe&ved=0CBMQjhxqFwoTCKjI8cCWyf4CFQAAAAAdAAAAABA5
+[Credit.](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nationalgeographic.com%2Fanimals%2Farticle%2Fworld-top-predators-endangered-prey&psig=AOvVaw0Hc_9ycImx1CnBlzpDIHjK&ust=1682654466999000&source=images&cd=vfe&ved=0CBMQjhxqFwoTCKjI8cCWyf4CFQAAAAAdAAAAABA5)
 
 
 Predator-prey dynamics is a classic problem in ecology and mathematical biology, which involves modeling the interactions between two species, where one species (the predator) consumes the other (the prey) for sustenance. The Lotka-Volterra model is one of the earliest and simplest models for describing these interactions.
