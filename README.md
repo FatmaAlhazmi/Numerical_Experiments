@@ -21,6 +21,7 @@ To visualize the behavior of the model, one can plot the vector field, which sho
 
 ### **Vector Field**: 
 The vector field plot shows the direction and magnitude of the system's behavior at different points in the phase space. The plot uses arrows to indicate the direction of change in the prey and predator populations, and the length of the arrows represents the magnitude of the change. The plot shows that the arrows point towards the stable equilibrium point at (10, 2), indicating that the system tends towards this point. The plot also shows that the magnitude of the arrows is larger in the region of the phase space where the prey population is low and the predator population is high, indicating that the predation rate is higher in this region.
+
 ![1](https://user-images.githubusercontent.com/92335176/234765960-41af1956-8970-496c-bd3e-1242de1bf1e7.jpg)
 
 
