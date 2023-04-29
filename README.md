@@ -41,7 +41,7 @@ The invariant curve plot shows the trajectories of the prey-predator system that
 
 
 
-[Here](https://github.com/Phatimah/Numerical_Experiments/blob/main/Lotka-Volterra_Fig.1.1.ipynb) you can find the full implementation.
+[Jupyter notebook](https://github.com/Phatimah/Numerical_Experiments/blob/main/Lotka-Volterra_Fig.1.1.ipynb).
 
 
 
