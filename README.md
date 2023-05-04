@@ -54,9 +54,9 @@ First Numerical Methods
 
 [This notebook]() implements three numerical methods for solving an initial value problem (IVP) of the form:
 
-$$y'(t) = f(t, y(t)),     y(t_0) = y_0$$
+$$y'(t) = f(t, y(t)),     y(t_0) = y_{0}$$
 
-where **y(t)** is an **n**-dimensional vector-valued function of time **t**, **f** is a given **n**-dimensional function of **t** and **y**, and **y_0** is the initial condition at time **t_0**.
+where **y(t)** is an **n**-dimensional vector-valued function of time **t**, **f** is a given **n**-dimensional function of **t** and **y**, and **y_{0}** is the initial condition at time **t_{0}**.
 
 The three numerical methods implemented are:
 - Explicit Euler method
@@ -73,7 +73,7 @@ which corresponds to a simple harmonic oscillator with angular frequency **1**.
 
 The Explicit Euler method is a first-order one-step method that approximates the solution **y(t)** at time **t** by computing:
 
-** y_{i+1} = y_i + h f(t_i, y_i)**
+$$ y_{i+1} = y_i + h f(t_i, y_i)$$
 
 
 
