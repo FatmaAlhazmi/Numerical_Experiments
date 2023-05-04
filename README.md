@@ -54,7 +54,7 @@ The invariant curve plot shows the trajectories of the prey-predator system that
 
 $$y'(t) = f(t, y(t)),     y(t_0) = y_{0}$$
 
-where **y(t)** is an **n**-dimensional vector-valued function of time **t**, **f** is a given **n**-dimensional function of **t** and **y**, and $y_{0}$ is the initial condition at time $t_{0}$.
+where $y(t)$ is an $n$-dimensional vector-valued function of time $t$, $f$ is a given $n$-dimensional function of $t$ and $y$, and $y_{0}$ is the initial condition at time $t_{0}$.
 
 The three numerical methods implemented are:
 - Explicit Euler method
@@ -65,17 +65,57 @@ For each method, we solve the following IVP:
 
 $$y'(t) = y(t),     y(0) = [1, 0]$$
 
-which corresponds to a simple harmonic oscillator with angular frequency **1**.
+which corresponds to a simple harmonic oscillator with angular frequency $1$.
 
 ### Explicit Euler method
 
-The Explicit Euler method is a first-order one-step method that approximates the solution **y(t)** at time **t** by computing:
+The Explicit Euler method is a first-order one-step method that approximates the solution $y(t)$ at time $t$ by computing:
 
 $$ y_{i+1} = y_i + h f(t_i, y_i)$$
 
 where $h$ is the step size, $t_i$ is the current time, and $y_i$ is the approximation of $y(t_i)$. This method is explicit because $y_{i+1}$ depends only on $y_i$ and $f(t_i, y_i)$.
 
 The following plot shows the numerical solution obtained with the Explicit Euler method for $h = 0.1$, $0.05$, and $0.025$:
+
+<img width="248" alt="Screen Shot 2023-05-04 at 12 44 26 PM" src="https://user-images.githubusercontent.com/92335176/236170201-330b7044-2578-4209-a065-7ed8f62b03a7.png">
+
+As the step size $h$ decreases, the numerical solution becomes more accurate and oscillates with a smaller amplitude around the exact solution $y(t) = [cos(t), sin(t)]$.
+
+### Implicit Euler method
+
+The Implicit Euler method is a first-order one-step method that approximates the solution $y(t)$ at time $t$ by solving the nonlinear equation:
+
+$$y_{i+1} = y_i + h f(t_{i+1}, y_{i+1})$$
+
+for $y_{i+1}$, where $t_{i+1}$ = $t_i$ + $h$. This method is implicit because y_{n+1} depends on $f(t_{i+1}, y_{i+1})$ which is not known in advance.
+
+The following plot shows the numerical solution obtained with the Implicit Euler method for $h = 0.1, 0.05$, and $0.025$:
+
+<img width="240" alt="Screen Shot 2023-05-04 at 12 44 59 PM" src="https://user-images.githubusercontent.com/92335176/236172944-8de4210c-0075-4da6-884e-d71db6658cc8.png">
+
+As the step size $h$ decreases, the numerical solution becomes more accurate and oscillates with a smaller amplitude around the exact solution $y(t) = [cos(t), sin(t)]$.
+
+### Symplectic Euler method
+
+The Symplectic Euler method is a first-order one-step method that approximates the solution $y(t)$ at time $t$ by computing:
+
+$$u_{i+1} = u_i + h f(t_i, u_i)$$
+
+$$v_{i+1} = v_i + h v_{i+1}$$
+
+where $u_i = y'_i$ and $v_i = y_i$, and the subscripts denote the time step. This method is symplectic because it preserves the symplectic structure of Hamiltonian systems, which are systems that satisfy certain physical and mathematical properties.
+
+The following plot shows the numerical solution obtained with the Symplectic Euler method for $h = 0.1$, $0.05$, and $0.01$:
+
+<img width="244" alt="Screen Shot 2023-05-04 at 12 45 07 PM" src="https://user-images.githubusercontent.com/92335176/236173019-7a1cf6b2-c325-429e-84b3-b65cb108d40f.png">
+
+Finally, we compare the results obtained with the three numerical methods. The following plot shows the numerical solutions obtained with the Explicit Euler, Implicit Euler, and Symplectic Euler methods for h = 0.1:
+
+<img width="1545" alt="Screen Shot 2023-05-04 at 12 59 58 PM" src="https://user-images.githubusercontent.com/92335176/236173199-67c57ab7-d8f4-439a-abcc-6321cb79ec5e.png">
+
+From the plot, we can see that the Explicit Euler method overestimates the population sizes, while the Implicit Euler method underestimates them. On the other hand, the Symplectic Euler method provides accurate approximations that oscillate around the exact solution.
+
+In summary, the Explicit Euler and Implicit Euler methods are not suitable for approximating the solutions of the Lotka-Volterra model, due to their instability and inaccuracy. On the other hand, the Symplectic Euler method is a stable and accurate numerical method that can be used to solve this model.
 
 
 
