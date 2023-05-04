@@ -50,13 +50,11 @@ The invariant curve plot shows the trajectories of the prey-predator system that
 
 ## First Numerical Methods
 
-First Numerical Methods
-
 [This notebook]() implements three numerical methods for solving an initial value problem (IVP) of the form:
 
 $$y'(t) = f(t, y(t)),     y(t_0) = y_{0}$$
 
-where **y(t)** is an **n**-dimensional vector-valued function of time **t**, **f** is a given **n**-dimensional function of **t** and **y**, and $**y_{0}**$ is the initial condition at time ${**t_{0}**}$.
+where **y(t)** is an **n**-dimensional vector-valued function of time **t**, **f** is a given **n**-dimensional function of **t** and **y**, and $y_{0}$ is the initial condition at time $t_{0}$.
 
 The three numerical methods implemented are:
 - Explicit Euler method
@@ -75,12 +73,16 @@ The Explicit Euler method is a first-order one-step method that approximates the
 
 $$ y_{i+1} = y_i + h f(t_i, y_i)$$
 
+where $h$ is the step size, $t_i$ is the current time, and $y_i$ is the approximation of $y(t_i)$. This method is explicit because $y_{i+1}$ depends only on $y_i$ and $f(t_i, y_i)$.
+
+The following plot shows the numerical solution obtained with the Explicit Euler method for $h = 0.1$, $0.05$, and $0.025$:
 
 
 
 # II. The Pendulum as a Hamiltonian System
 
 https://github.com/Phatimah/Numerical_Experiments/blob/main/fig2.ipynb
+
 ### Reference
 - 
 
