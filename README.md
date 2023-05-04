@@ -56,7 +56,7 @@ First Numerical Methods
 
 $$y'(t) = f(t, y(t)),     y(t_0) = y_{0}$$
 
-where **y(t)** is an **n**-dimensional vector-valued function of time **t**, **f** is a given **n**-dimensional function of **t** and **y**, and $**y_{0}**$ is the initial condition at time $**t_{0}**$.
+where **y(t)** is an **n**-dimensional vector-valued function of time **t**, **f** is a given **n**-dimensional function of **t** and **y**, and $**y_{0}**$ is the initial condition at time ${**t_{0}**}$.
 
 The three numerical methods implemented are:
 - Explicit Euler method
