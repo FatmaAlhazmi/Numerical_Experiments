@@ -50,11 +50,33 @@ The invariant curve plot shows the trajectories of the prey-predator system that
 
 ## First Numerical Methods
 
-**Explicit Euler Method**
+First Numerical Methods
 
-**Implicit Euler Method**
+[This notebook]() implements three numerical methods for solving an initial value problem (IVP) of the form:
 
-**Implicit Midpoint Rule**
+$$y'(t) = f(t, y(t)),     y(t_0) = y_0$$
+
+where **y(t)** is an **n**-dimensional vector-valued function of time **t**, **f** is a given **n**-dimensional function of **t** and **y**, and **y_0** is the initial condition at time **t_0**.
+
+The three numerical methods implemented are:
+- Explicit Euler method
+- Implicit Euler method
+- Symplectic Euler method
+
+For each method, we solve the following IVP:
+
+$$y'(t) = y(t),     y(0) = [1, 0]$$
+
+which corresponds to a simple harmonic oscillator with angular frequency **1**.
+
+### Explicit Euler method
+
+The Explicit Euler method is a first-order one-step method that approximates the solution **y(t)** at time **t** by computing:
+
+** y_{i+1} = y_i + h f(t_i, y_i)**
+
+
+
 
 # II. The Pendulum as a Hamiltonian System
 
