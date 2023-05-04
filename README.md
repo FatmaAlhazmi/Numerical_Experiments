@@ -109,11 +109,8 @@ The following plot shows the numerical solution obtained with the Symplectic Eul
 
 <img width="244" alt="Screen Shot 2023-05-04 at 12 45 07 PM" src="https://user-images.githubusercontent.com/92335176/236173019-7a1cf6b2-c325-429e-84b3-b65cb108d40f.png">
 
-Finally, we compare the results obtained with the three numerical methods. The following plot shows the numerical solutions obtained with the Explicit Euler, Implicit Euler, and Symplectic Euler methods for h = 0.1:
 
-<img width="1545" alt="Screen Shot 2023-05-04 at 12 59 58 PM" src="https://user-images.githubusercontent.com/92335176/236173199-67c57ab7-d8f4-439a-abcc-6321cb79ec5e.png">
-
-From the plot, we can see that the Explicit Euler method overestimates the population sizes, while the Implicit Euler method underestimates them. On the other hand, the Symplectic Euler method provides accurate approximations that oscillate around the exact solution.
+Finally, from the plots, we can see that the Explicit Euler method overestimates the population sizes, while the Implicit Euler method underestimates them. On the other hand, the Symplectic Euler method provides accurate approximations that oscillate around the exact solution.
 
 In summary, the Explicit Euler and Implicit Euler methods are not suitable for approximating the solutions of the Lotka-Volterra model, due to their instability and inaccuracy. On the other hand, the Symplectic Euler method is a stable and accurate numerical method that can be used to solve this model.
 
